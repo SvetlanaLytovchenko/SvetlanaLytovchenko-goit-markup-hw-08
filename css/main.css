@@ -14,7 +14,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   color: var(--main-text-color);
-  margin: 0;
+  margin: 0 auto;
 }
 
 p,
@@ -49,10 +49,10 @@ img {
 }
 
 .container {
-  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  max-width: 1600px;
 }
 
 @media screen and (min-width: 480px) {
@@ -448,6 +448,8 @@ img {
   max-width: 1600px;
   background-color: var(--footer-color);
   background-size: cover;
+  background-position: center;
+  margin: 0 auto;
   padding-top: 118px;
   padding-bottom: 118px;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(46, 55, 155, 0.4)), url(../images/mob/hero-tel-1x.jpg);
@@ -526,10 +528,6 @@ img {
 
 .hero__btn-studio:focus, .hero__btn-studio:hover {
   background-color: var(--blue-color);
-}
-
-.advantages {
-  max-width: 1600px;
 }
 
 @media screen and (min-width: 768px) {
@@ -616,7 +614,6 @@ img {
 }
 
 .work {
-  max-width: 1600px;
   padding-top: 0px;
 }
 
@@ -671,7 +668,6 @@ img {
 
 .team {
   background: var(--team-color);
-  max-width: 1600px;
 }
 
 .team-list {
@@ -813,7 +809,6 @@ img {
 }
 
 .clients {
-  max-width: 1600px;
   background-color: #ffffff;
   justify-content: center;
 }
@@ -1054,7 +1049,6 @@ img {
 
 .footer {
   background-color: var(--footer-color);
-  max-width: 1600px;
 }
 
 .footer-container {
@@ -1267,7 +1261,8 @@ img {
 }
 
 .btn-email {
-  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
   width: 200px;
   height: 50px;
