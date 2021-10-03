@@ -56,7 +56,7 @@
             <use href="./images/icons.svg#icon-menu-open"></use>
           </svg>
         </button>          
-        <!-------------------- MOBILE-MENU ------------------------->
+        <!-- MOBILE-MENU -->
          <div class="mob-menu is-hidden" data-menu>        
           <button type="submit" class="menu-close" data-menu-close>
             <svg class="menu-close__icon-close-menu" width="19" height="19">
@@ -200,11 +200,11 @@
           <ul class="team-list list">
             <li class="team-list__item">
                <picture>                
-                <source srcset="./images/team-card1-1x.jpg 1x, ./images/team-card1-2x.jpg 2x" @media="(min-width: 1200px)"/>
+                <source srcset="./images/team-card1-1x.jpg 1x, ./images/team-card1-2x.jpg 2x" media="(min-width: 1200px)"/>
                 <source srcset="./images/tab/team-card1-tab-1x.jpg 1x, ./images/tab/team-card1-tab-2x.jpg 2x"
-                  @media="(min-width:768px)"/>
+                  media="(min-width:768px)"/>
                 <source srcset="./images/mob/team-card1-mob-1x.jpg 1x, ./images/mob/team-card1-mob-2x.jpg 2x"
-                  @media="(min-width:320px)"/>     
+                  media="(min-width:320px)"/>     
                 <img src="./images/mob/team-card1-mob-1x.jpg" alt="мужчина в очках" />
               </picture>                
               <div class="team-list__text">
@@ -244,11 +244,11 @@
             </li>
             <li class="team-list__item">
               <picture>
-                <source srcset="./images/team-card2-1x.jpg 1x, ./images/team-card2-2x.jpg 2x" @media="(min-width:1200px)"/>
+                <source srcset="./images/team-card2-1x.jpg 1x, ./images/team-card2-2x.jpg 2x" media="(min-width:1200px)"/>
                 <source srcset="./images/tab/team-card2-tab-1x.jpg, ./images/tab/team-card2-tab-2x.jpg 2x"
-                  @media="(min-width:768px)"/>
+                  media="(min-width:768px)"/>
                 <source srcset="./images/mob/team-card2-mob-1x.jpg 1x, ./images/mob/team-card2-mob-2x.jpg 2x"
-                  @media="(min-width:320px)"/>
+                  media="(min-width:320px)"/>
                 <img src="./images/mob/team-card2-mob-1x.jpg" alt="светловолосая девушка" />
               </picture>              
             <div class="team-list__text">
@@ -288,10 +288,10 @@
             </li>
             <li class="team-list__item">
               <picture>
-                <source srcset="./images/team-card3-1x.jpg 1x, ./images/team-card3-2x.jpg 2x" @media="(min-width:1200px)"/>
-                <source srcset="./images/tab/team-card3-tab-1x.jpg, ./images/tab/team-card3-tab-2x.jpg 2x" @media="(min-width:768px)"/>
+                <source srcset="./images/team-card3-1x.jpg 1x, ./images/team-card3-2x.jpg 2x" media="(min-width:1200px)"/>
+                <source srcset="./images/tab/team-card3-tab-1x.jpg, ./images/tab/team-card3-tab-2x.jpg 2x" media="(min-width:768px)"/>
                 <source srcset="./images/mob/team-card3-mob-1x.jpg 1x, ./images/mob/team-card3-mob-2x.jpg 2x"
-                  @media="(min-width:320px)"/>
+                  media="(min-width:320px)"/>
                 <img src="./images/mob/team-card3-mob-1x.jpg" alt="улыбающийся парень" />
               </picture>              
             <div class="team-list__text">
@@ -331,11 +331,10 @@
             </li>
             <li class="team-list__item">
               <picture>
-                <source srcset="./images/team-card4-1x.jpg 1x, ./images/team-card4-2x.jpg 2x" @media="(min-width:1200px)"/>
-                <source srcset="./images/tab/team-card4-tab-1x.jpg, ./images/tab/team-card4-tab-2x.jpg 2x" @media="(min-width:768px)"/>
+                <source srcset="./images/team-card4-1x.jpg 1x, ./images/team-card4-2x.jpg 2x" media="(min-width:1200px)"/>
+                <source srcset="./images/tab/team-card4-tab-1x.jpg, ./images/tab/team-card4-tab-2x.jpg 2x" media="(min-width:768px)"/>
                 <source srcset="./images/mob/team-card4-mob-1x.jpg 1x, ./images/mob/team-card4-mob-2x.jpg 2x"
-                  @media="(min-width:320px)"/>
-                  <source>
+                  media="(min-width:320px)"/>                  
                 <img src="./images/mob/team-card4-mob-1x.jpg" alt="брюнет с бородой" />
               </picture>
               <div class="team-list__text">
@@ -490,18 +489,17 @@
         <div class="email-footer">
           <p class="join__title">Подпишись на рассылку</p>
           <form action="#" class="email-form">
-            <input type="email" name="email-name" class="email-form__input" placeholder="E-mail">            
-              <a href="" class="email-footer-link link"> 
-              <button type="submit" class="btn-email"> Подписаться 
-              <svg class="btn-email__icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-send"></use>
+            <input type="email" name="email-name" class="email-form__input" placeholder="E-mail">     
+            <button type="submit" class="btn-email"> Подписаться 
+            <svg class="btn-email__icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-send"></use>
             </svg>        
             </button>              
           </form>
         </div>
       </div>
     </footer> 
-    <!-- модальное окно     -->
+    <!--                модальное окно                    -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal__btn-close" data-modal-close>
