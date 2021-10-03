@@ -200,11 +200,11 @@
           <ul class="team-list list">
             <li class="team-list__item">
                <picture>                
-                <source srcset="./images/team-card1-1x.jpg 1x, ./images/team-card1-2x.jpg 2x" @media="(min-width: 1200px)">
+                <source srcset="./images/team-card1-1x.jpg 1x, ./images/team-card1-2x.jpg 2x" @media="(min-width: 1200px)"/>
                 <source srcset="./images/tab/team-card1-tab-1x.jpg 1x, ./images/tab/team-card1-tab-2x.jpg 2x"
-                  @media="(min-width:768px)">
+                  @media="(min-width:768px)"/>
                 <source srcset="./images/mob/team-card1-mob-1x.jpg 1x, ./images/mob/team-card1-mob-2x.jpg 2x"
-                  @media="(min-width:320px)">     
+                  @media="(min-width:320px)"/>     
                 <img src="./images/mob/team-card1-mob-1x.jpg" alt="мужчина в очках" />
               </picture>                
               <div class="team-list__text">
@@ -244,11 +244,11 @@
             </li>
             <li class="team-list__item">
               <picture>
-                <source srcset="./images/team-card2-1x.jpg 1x, ./images/team-card2-2x.jpg 2x" @media="(min-width:1200px)">
+                <source srcset="./images/team-card2-1x.jpg 1x, ./images/team-card2-2x.jpg 2x" @media="(min-width:1200px)"/>
                 <source srcset="./images/tab/team-card2-tab-1x.jpg, ./images/tab/team-card2-tab-2x.jpg 2x"
-                  @media="(min-width:768px)">
+                  @media="(min-width:768px)"/>
                 <source srcset="./images/mob/team-card2-mob-1x.jpg 1x, ./images/mob/team-card2-mob-2x.jpg 2x"
-                  @media="(min-width:320px)">
+                  @media="(min-width:320px)"/>
                 <img src="./images/mob/team-card2-mob-1x.jpg" alt="светловолосая девушка" />
               </picture>              
             <div class="team-list__text">
@@ -288,10 +288,10 @@
             </li>
             <li class="team-list__item">
               <picture>
-                <source srcset="./images/team-card3-1x.jpg 1x, ./images/team-card3-2x.jpg 2x" @media="(min-width:1200px)">
-                <source srcset="./images/tab/team-card3-tab-1x.jpg, ./images/tab/team-card3-tab-2x.jpg 2x" @media="(min-width:768px)">
+                <source srcset="./images/team-card3-1x.jpg 1x, ./images/team-card3-2x.jpg 2x" @media="(min-width:1200px)"/>
+                <source srcset="./images/tab/team-card3-tab-1x.jpg, ./images/tab/team-card3-tab-2x.jpg 2x" @media="(min-width:768px)"/>
                 <source srcset="./images/mob/team-card3-mob-1x.jpg 1x, ./images/mob/team-card3-mob-2x.jpg 2x"
-                  @media="(min-width:320px)">
+                  @media="(min-width:320px)"/>
                 <img src="./images/mob/team-card3-mob-1x.jpg" alt="улыбающийся парень" />
               </picture>              
             <div class="team-list__text">
@@ -331,10 +331,11 @@
             </li>
             <li class="team-list__item">
               <picture>
-                <source srcset="./images/team-card4-1x.jpg 1x, ./images/team-card4-2x.jpg 2x" @media="(min-width:1200px)">
-                <source srcset="./images/tab/team-card4-tab-1x.jpg, ./images/tab/team-card4-tab-2x.jpg 2x" @media="(min-width:768px)">
+                <source srcset="./images/team-card4-1x.jpg 1x, ./images/team-card4-2x.jpg 2x" @media="(min-width:1200px)"/>
+                <source srcset="./images/tab/team-card4-tab-1x.jpg, ./images/tab/team-card4-tab-2x.jpg 2x" @media="(min-width:768px)"/>
                 <source srcset="./images/mob/team-card4-mob-1x.jpg 1x, ./images/mob/team-card4-mob-2x.jpg 2x"
-                  @media="(min-width:320px)">
+                  @media="(min-width:320px)"/>
+                  <source>
                 <img src="./images/mob/team-card4-mob-1x.jpg" alt="брюнет с бородой" />
               </picture>
               <div class="team-list__text">
@@ -557,7 +558,10 @@
         </form>
       </div>
     </div> 
-      <script src="./js/modal.js"></script>
-      <script src="./js/menu.js"></script> 
+    <script src="./js/modal.js"></script>
+    <script defer src="js/mobile-menu.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"></script>
   </body>
 </html>
