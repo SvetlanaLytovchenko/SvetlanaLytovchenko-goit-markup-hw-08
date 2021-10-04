@@ -9,6 +9,9 @@
     letter-spacing: 0.03em;
     color: var(--secondary-title-colour);
     margin-bottom: 30px;
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 50px;
+    }
   }
 }
 
