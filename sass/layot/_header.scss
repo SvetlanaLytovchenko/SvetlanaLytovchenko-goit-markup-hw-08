@@ -296,6 +296,11 @@
 .menu-container.is-open {
   transform: translateX(0%);
 }
+.menu-container.is-hidden {
+  opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
 
 .menu-toggle {
   display: flex;
@@ -371,8 +376,8 @@
   cursor: pointer;
   background-color: inherit;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover,
-  &:focus {
+  &:hover .icon-close-menu,
+  &:focus .icon-close-menu {
     fill: var(--blue-color);
   }
   @media screen and (min-width: 768px) {

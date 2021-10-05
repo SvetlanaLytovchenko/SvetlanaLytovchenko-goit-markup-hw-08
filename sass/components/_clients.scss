@@ -9,7 +9,7 @@
     letter-spacing: 0.03em;
     color: var(--secondary-title-colour);
     margin-bottom: 30px;
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1199px) {
       margin-bottom: 50px;
     }
   }
@@ -28,7 +28,7 @@
         margin-right: 0px;
       }
     }
-    @media screen and (min-width: 768px) and (max-width: 1200px) {
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
       flex-basis: calc((100% - 60px) / 3);
       margin-right: 30px;
       margin-bottom: 30px;
@@ -36,7 +36,7 @@
         margin-right: 0px;
       }
     }
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1199px) {
       flex-wrap: nowrap;
       justify-content: center;
       width: 170px;
